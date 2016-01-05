@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -122,6 +123,7 @@ public class ForecastFragment extends Fragment {
                 startActivity(intent);
 
 
+
             }
         });
 
@@ -129,6 +131,7 @@ public class ForecastFragment extends Fragment {
 
         return rootView;
     }
+
 
 
     public class FetchWeatherTask extends AsyncTask<String, Void, String[]>{
