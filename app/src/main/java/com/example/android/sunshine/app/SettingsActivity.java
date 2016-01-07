@@ -1,8 +1,5 @@
 package com.example.android.sunshine.app;
 
-/**
- * Created by lenovo on 1/6/2016.
- */
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.ListPreference;
@@ -31,6 +28,7 @@ public class SettingsActivity extends PreferenceActivity
         // For all preferences, attach an OnPreferenceChangeListener so the UI summary can be
         // updated when the preference changes.
         // TODO: Add preferences
+
     }
 
     /**

@@ -121,9 +121,6 @@ public class ForecastFragment extends Fragment {
                 String forecast = mForecastAdapter.getItem(position);
                 Intent intent= new Intent(getActivity(), DetailActivity.class).putExtra(Intent.EXTRA_TEXT, forecast);
                 startActivity(intent);
-
-
-
             }
         });
 
