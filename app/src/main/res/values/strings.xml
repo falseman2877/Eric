@@ -7,6 +7,16 @@
     <string name="title_activity_detail">DetailActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_settings">SettingsActivity</string>
-    <string name="title_activity_setting">SettingActivity</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable = "false">location</string>
+    <string name="pref_location_default" translatable = "false">Macau</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable = "false">temperature</string>
+    <string-array name="units">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+
 
 </resources>
